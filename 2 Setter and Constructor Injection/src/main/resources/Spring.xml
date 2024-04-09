@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--define beans(classes, objects)-->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+        <bean id="doctor" class="Demo.Doctor">
+<!--                Setter injection     -->
+                <property name="qualifacation" value="MBA"></property>
+        </bean>
+        <bean id="nurse" class="Demo.Nurse">
+<!--                Contructor injection-->
+                <constructor-arg value="MBBSS"></constructor-arg>
+        </bean>
+
+</beans>
