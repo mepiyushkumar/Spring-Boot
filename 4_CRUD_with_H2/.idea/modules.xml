@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/4_CRUD_with_H2.iml" filepath="$PROJECT_DIR$/.idea/4_CRUD_with_H2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Boot-REST-Test/Spring-Boot-REST-Test.iml" filepath="$PROJECT_DIR$/Spring-Boot-REST-Test/Spring-Boot-REST-Test.iml" />
+    </modules>
+  </component>
+</project>
